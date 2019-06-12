@@ -9,14 +9,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Componentes App',
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Componentes App'),
-        ),
-        body: Center(
-          child: HomePageTemp(),
-          ),
-        ),
+      home: HomePageTemp(),
+          
+        
     );
   }
 }
